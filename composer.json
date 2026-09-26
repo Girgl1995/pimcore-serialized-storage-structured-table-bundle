@@ -1,0 +1,31 @@
+{
+  "name": "factotum/serialized-storage-structured-table-bundle",
+  "description": "An alternative structured table that stores its data serialized in the database",
+  "type": "pimcore-bundle",
+  "keywords": [
+    "pimcore",
+    "pimcore-bundle",
+    "storage",
+    "serialization",
+    "structured-table",
+    "factotum",
+    "open-source",
+    "girgl"
+  ],
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Girgl1995",
+      "email": "girgl1995@proton.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "pimcore/pimcore": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Factotum\\SerializedStorageStructuredTableBundle\\": "src/"
+    }
+  }
+}

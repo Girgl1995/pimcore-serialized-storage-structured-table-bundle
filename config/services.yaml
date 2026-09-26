@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Factotum\SerializedStorageStructuredTableBundle\Installer:
+        public: true
+
+    Factotum\SerializedStorageStructuredTableBundle\EventSubscriber\AdminAssetSubscriber: ~
