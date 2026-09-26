@@ -1,0 +1,6 @@
+pimcore:
+    objects:
+        class_definitions:
+            data:
+                map:
+                    serializedStorageStructuredTable: \Factotum\SerializedStorageStructuredTableBundle\Model\DataObject\ClassDefinition\Data\SerializedStorageStructuredTable
